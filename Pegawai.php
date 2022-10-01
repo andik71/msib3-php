@@ -114,6 +114,7 @@ class Pegawai
                         Gaji Pokok: Rp.' . number_format($this->setGajiPokok(), 2, ',', '.') . '<br>
                         Tunjangan Jabatan: Rp.' . number_format($this->setTunjab(), 2, ',', '.') . '<br>
                         Tunjangan Keluarga: Rp.' . number_format($this->setTunkel(), 2, ',', '.') . ' <br>
+                        Zakat Profesi: Rp.' . number_format($this->setZakatProfesi(), 2, ',', '.') . ' <br>
                         Gaji Kotor: Rp.' . number_format($this->setGajiKotor(), 2, ',', '.') . ' <br>
                         Gaji Bersih: Rp.' . number_format($this->setGajiBersih(), 2, ',', '.') . '
                     </p>
