@@ -73,8 +73,8 @@
                 <div class="invalid-feedback" data-sb-feedback="status:required">One option is required.</div>
             </div>
             <div class="mb-3">
-                <label class="form-label" name="jumlahanak" for="jumlahAnak">Jumlah Anak</label>
-                <input class="form-control" id="jumlahAnak" type="text" placeholder="Jumlah Anak" data-sb-validations="required" />
+                <label class="form-label" for="jumlahAnak">Jumlah Anak</label>
+                <input class="form-control" name="jumlahanak" id="jumlahAnak" type="text" placeholder="Jumlah Anak" data-sb-validations="required" />
                 <div class="invalid-feedback" data-sb-feedback="jumlahAnak:required">Jumlah Anak is required.</div>
             </div>
             <div class="d-none" id="submitSuccessMessage">
