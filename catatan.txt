@@ -1,0 +1,200 @@
+             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                 <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>AT</h4>
+                     <p>App</p>
+                     <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                     <!-- Href -->
+                     <a href="index.php?page=mytask" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                 <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>TESTING</h4>
+                     <p>Web</p>
+                     <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                 <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>App 2</h4>
+                     <p>App</p>
+                     <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                 <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>Card 2</h4>
+                     <p>Card</p>
+                     <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                 <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>Web 2</h4>
+                     <p>Web</p>
+                     <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                 <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>App 3</h4>
+                     <p>App</p>
+                     <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                 <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>Card 1</h4>
+                     <p>Card</p>
+                     <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                 <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>Card 3</h4>
+                     <p>Card</p>
+                     <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                 <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                 <div class="portfolio-info">
+                     <h4>Web 3</h4>
+                     <p>Web</p>
+                     <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                     <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                 </div>
+             </div>
+
+// JUMPER
+
+                                 <li><a class="nav-link scrollto <?php if($_REQUEST['page'] == 'home') echo 'active' ?>" href="index.php?page=home">Home</a></li>
+                    <li><a class="nav-link scrollto <?php if($_REQUEST['page'] == 'about') echo 'active' ?>" href="index.php?page=about">About</a></li>
+                    <li><a class="nav-link scrollto <?php if($_REQUEST['page'] == 'services') echo 'active' ?>" href="index.php?page=services">Services</a></li>
+                    <li><a class="nav-link scrollto <?php if($_REQUEST['page'] == 'portofolio') echo 'active' ?>" href="index.php?page=portofolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto <?php if($_REQUEST['page'] == 'pricing') echo 'active' ?>" href="index.php?page=pricing">Pricing</a></li>
+                    <li><a class="nav-link scrollto <?php if($_REQUEST['page'] == 'team') echo 'active' ?>" href="index.php?page=team">Team</a></li>
+
+// text
+
+                    <?php
+
+$id = $_GET['id'];
+
+switch ($id) {
+    case '1':
+        $item =
+            [
+                'id' => 1,
+                'title' => 'Tugas 2 PHP',
+                'subtitle' => 'Form Data Pegawai',
+                'd-title' => 'Tugas 2 PhP | Form Data Pegawai',
+                'img' => 'assets/img/portfolio/tugas2php1.png',
+                'img-2' => 'assets/img/portfolio/tugas2php2.png',
+                'img-3' => 'assets/img/portfolio/tugas2php3.png',
+                'a-img' => 'assets/img/portfolio/tugas2php1.png',
+                'div' => 'filter-web',
+                'category' => 'Pemrograman PHP',
+                'client' => 'MSIB3 - PT. Nurul Fikri',
+                'project-date' => '28 September 2022',
+                'project-url' => 'https://github.com/andik71/msib3-php/tree/tugas2-php',
+                'portofolio-title' => 'Form Data Pegawai',
+                'portofolio-desc' => 'Ini adalah Tugas 2 PHP, membuat sebuah form dengan method POST dengan form builder bootstrap dari startbootstrap. Tampilkan populasi data di atas jika sudah diklik tombol simpan, dengan tambahan data: (menggunakan tabel dan untuk data angka gunakan fungsi number_format php) untuk yang bisa menggunkan modal bootstrap dipersilahkan'
+            ];
+        break;
+
+    case '2':
+        $item =
+            [
+                'id' => 2,
+                'title' => 'Tugas 3 PHP',
+                'subtitle' => 'Daftar Mahasiswa',
+                'd-title' => 'Tugas 3 PhP | Daftar Mahasiswa',
+                'img' => 'assets/img/portfolio/tugas3php1.png',
+                'img-2' => 'assets/img/portfolio/tugas3php2.png',
+                'img-3' => 'assets/img/portfolio/tugas3php3.png',
+                'a-img' => 'assets/img/portfolio/tugas3php1.png',
+                'div' => 'filter-web',
+                'category' => 'Pemrograman PHP',
+                'client' => 'MSIB3 - PT. Nurul Fikri',
+                'project-date' => '30 September 2022',
+                'project-url' => 'https://github.com/andik71/msib3-php/tree/tugas3-php',
+                'portofolio-title' => 'Daftar Mahasiswa',
+                'portofolio-desc' => 'Ini adalah Tugas 3 PHP, membuat daftar nilai mahasiswa dengan array associative serta array scalar'
+            ];
+        break;
+    case '3':
+        $item =
+            [
+                'id' => 3,
+                'title' => 'Tugas 4 PHP',
+                'subtitle' => 'Daftar Gaji Pegawai',
+                'd-title' => 'Tugas 4 PhP | Daftar Gaji Pegawai',
+                'img' => 'assets/img/portfolio/tugas4php1.png',
+                'img-2' => 'assets/img/portfolio/tugas4php2.png',
+                'img-3' => 'assets/img/portfolio/tugas4php3.png',
+                'a-img' => 'assets/img/portfolio/tugas4php1.png',
+                'div' => 'filter-web',
+                'category' => 'Pemrograman PHP',
+                'client' => 'MSIB3 - PT. Nurul Fikri',
+                'project-date' => '2 October 2022',
+                'project-url' => 'https://github.com/andik71/msib3-php/tree/tugas4-php',
+                'portofolio-title' => 'Daftar Gaji Pegawai',
+                'portofolio-desc' => 'Ini adalah Tugas 4 PHP, membuat Class Pegawai dengan Constructor dengan operator pada pertemuan sebelumnya'
+            ];
+        break;
+    case '4':
+        $item =
+            [
+                'id' => 4,
+                'title' => 'Tugas 5 PHP',
+                'subtitle' => 'Tabel Bangun 2 Dimensi',
+                'd-title' => 'Tugas 5 PhP | Tabel Bangun 2 Dimensi',
+                'img' => 'assets/img/portfolio/tugas5php1.png',
+                'img-2' => 'assets/img/portfolio/tugas5php2.png',
+                'img-3' => 'assets/img/portfolio/tugas5php3.png',
+                'a-img' => 'assets/img/portfolio/tugas5php1.png',
+                'div' => 'filter-web',
+                'category' => 'Pemrograman PHP',
+                'client' => 'MSIB3 - PT. Nurul Fikri',
+                'project-date' => '3 October 2022',
+                'project-url' => 'https://github.com/andik71/msib3-php/tree/tugas5-php',
+                'portofolio-title' => 'Tabel Bangun 2 Dimensi',
+                'portofolio-desc' => 'Ini adalah Tugas 5 PHP, membuat abstract class Bangun 2D'
+            ];
+        break;
+    case '5':
+        $item =
+            [
+
+            ];
+        break;
+
+    default:
+        break;
+}
+
+?>
